@@ -1,0 +1,15 @@
+/* Para que ocupe toda la pantalla */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(./fondo.png) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Si quieres que se vea un cursor típico de escritorio */
+  body {
+    cursor: url('cursor.ico'), auto; /* Puedes usar un archivo .ico para personalizar el cursor si lo deseas */
+  }
+  
